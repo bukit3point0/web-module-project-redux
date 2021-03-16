@@ -31,7 +31,6 @@ export default function reducer(state = initialState, action) {
                     features: [
                         ...state.car.features, action.payload
                     ],
-                    
                 },
             });
         case(DELETED_FEATURE):
